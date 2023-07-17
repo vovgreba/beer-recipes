@@ -1,0 +1,43 @@
+
+.beer {
+  display: flex;
+  gap: 20px;
+  background-image: url('https://reformation.beer/assets/images/slider/single-hero-story.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 20px;
+  height: 100vh;
+  img {
+    align-self: flex-start;
+    max-width: 100px;
+    width: 100%;
+    max-height: 100%;
+    margin-top: 60px;
+  }
+  li {
+    color: #e7ff33
+  }
+}
+.content {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #ed8537;
+}
+.characteristic span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  color: #83baf5
+}
+.characteristic span:last-child {
+  color: #e7ff33
+}
+
+.recommendedFood {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #ed8537;
+}
